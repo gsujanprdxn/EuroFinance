@@ -75,49 +75,65 @@
             <h4>Enter your details to subscribe to our newsletter</h4>
 
             <form action="#fixme" method="post">
-              <label for="firstname">First Name</label>
-              <input type="text" id="firstname">
+              <ul>
+                <li>
+                  <label for="firstname">First Name</label>
+                  <input type="text" id="firstname">
+                </li>
+                <li>
+                  <label for="lastname">last Name</label>
+                  <input type="text" id="lastname">
+                </li>
+                <li>
+                  <label for="position">Position</label>
+                  <input type="text" id="position">
+                </li>
+                <li>
+                  <label for="company">Company</label>
+                  <input type="text" id="company">
+                </li>
+                <li>
+                  <label for="company_type">Company type</label>
+                  <select> 
+                    <option  value = "-select-">-select-</option>
+                    <option>IT</option>
+                    <option>Chemical</option>
+                    <option>Pharmaceutical</option>
+                  </select>
+                </li>
+                <li>
+                  <label for="country">Country</label>
+                  <select> 
+                    <option  value = "-select-">-select-</option>
+                    <option value="india">India</option>
+                    <option value="pak">Pakistan</option>
+                    <option value="shrilanka">Shrilanka</option>
+                  </select>
+                </li>
+                <li>
+                  <label>Work Email</label>
+                  <input type="email" name="email" id = "email">
+                </li>
+                <li>
+                  <p id = "smpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ratione fuga iure omnis nostrum atque odit facilis, itaque fugiat sunt?</p>
+                </li>
+                <li>
+                  <input type="radio" id="termsyes" name="termsyes" value="yes">
+                  <label for="termsyes">Yes</label>
+                </li>
+                <li>
+                  <input type="radio" id="termsno" name="termsno" value="No">
+                  <label for="termsno">No</label>
+                </li>
 
-              <label for="lastname">last Name</label>
-              <input type="text" id="lastname">
-
-              <label for="position">Position</label>
-              <input type="text" id="position">
-
-              <label for="company">Company</label>
-              <input type="text" id="company">
-
-              <label for="company_type">Company type</label>
-              <select> 
-                <option  value = "-select-">-select-</option>
-                <option>IT</option>
-                <option>Chemical</option>
-                <option>Pharmaceutical</option>
-              </select>
-
-              <label for="country">Country</label>
-              <select> 
-                <option  value = "-select-">-select-</option>
-                <option value="india">India</option>
-                <option value="pak">Pakistan</option>
-                <option value="shrilanka">Shrilanka</option>
-              </select>
-              
-              <label>Work Email</label>
-              <input type="email" name="email" id = "email">
-
-              <p id = "smpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ratione fuga iure omnis nostrum atque odit facilis, itaque fugiat sunt?</p>
-
-              <input type="radio" id="termsyes" name="termsyes" value="yes">
-              <label for="termsyes">Yes</label>
-
-              <input type="radio" id="termsno" name="termsno" value="No">
-              <label for="termsno">No</label>
-
-              <p id = "link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vitae ab hic eius ipsam inventore!
-                <a href="https://www.economistgroup.com/privacy">www.economistgroup.com/privacy</a></p>
-
-              <input type="submit" value="Submit">
+                <li>
+                  <p id = "link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vitae ab hic eius ipsam inventore!
+                  <a href="https://www.economistgroup.com/privacy">www.economistgroup.com/privacy</a></p>
+                </li>
+                <li>
+                  <input type="submit" value="Submit">
+                </li>
+              </ul>
             </form>
           </div>
         </section>
