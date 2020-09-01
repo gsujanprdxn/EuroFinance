@@ -40,8 +40,8 @@
           <div class="search_header">
             <h1><img src="—Pngtree—bird and fly company logo_3777052.png" alt="EuroFinanace"></h1>
             <form action="#fixme" method="post">
-              <input type="text">
-              <input type="submit" value="search">
+              <input type="text" placeholder="Search">
+              <input type="submit" value="Go">
             </form>
           </div>
         </div>
@@ -64,7 +64,7 @@
       <!--main starts here-->
       <main>
         <section class="banner">
-          <img src="/avi-richards-Z3ownETsdNQ-unsplash.jpg" alt="banner">
+          <img src="avi-richards-Z3ownETsdNQ-unsplash.jpg" alt="Finance">
           <div class="wrapper">
             <h2>Sign up</h2>
             <span class="bannerspan1">Get the latest news on our events,</span>
@@ -77,11 +77,12 @@
             <span>newslatter sign up</span>
             <h4>Enter your details to subscribe to our newsletter</h4>
 
-            <form action="#fixme" method="post">
+            <form action="" method="" id="form" autocomplete="off">
               <ul>
                 <li>
                   <label for="firstname">First Name</label>
                   <input type="text" id="firstname">
+                  <span id="nametext"></span>
                 </li>
                 <li>
                   <label for="lastname">last Name</label>
@@ -113,18 +114,20 @@
                     <option value="shrilanka">Shrilanka</option>
                   </select>
                 </li>
-                <li>
+                <li id="emailbox">
                   <label>Work Email</label>
                   <input type="email" name="email" id = "email">
+                  <span id="text"></span>
                 </li>
                 <li>
                   <p id = "smpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ratione fuga iure omnis nostrum atque odit facilis, itaque fugiat sunt?</p>
                 </li>
-                <li>
+                <li class="radiobutton">
                   <input type="radio" id="termsyes" name="terms" value="yes">
                   <label for="termsyes">Yes</label>
                   <input type="radio" id="termsno" name="terms" value="No">
                   <label for="termsno">No</label>
+                  <span id="rediotext"></span>
                 </li>
                 <li>
                   <p id = "link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vitae ab hic eius ipsam inventore!
