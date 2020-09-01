@@ -384,3 +384,48 @@ header nav{
   height: 30px;
   padding-left: 10px;
 }
+.Euro_form{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.Euro_form .wrapper > span{
+  font-size: 12px;
+}
+
+.Euro_form .wrapper > span:nth-child(2){
+  font-weight: 600;
+  opacity: .8;
+}
+
+.Euro_form .wrapper > span:nth-child(2)::before{
+  content: ">";
+  margin-right: 5px;
+}
+
+.Euro_form .wrapper > h4{
+  margin-top: 22px;
+  margin-bottom: 18px;
+  font-size: 22px;
+  color:#2a7bc3 ;
+}
+#form ul li label{
+  padding: 8px 0px;
+  display: block;
+  font-size: 12px;
+}
+
+#form ul li input[type='text']{
+  width: 220px;
+  height: 25px;
+  border:none;
+  box-shadow:0 0 4px #666 inset;
+  outline: 0;
+}
+
+select{
+  width: 220px;
+  height: 25px;
+  background: #2a7bc3;
+  outline: 0;
+  position: relative;
+}
