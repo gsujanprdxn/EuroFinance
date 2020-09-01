@@ -336,3 +336,41 @@ header nav{
   position: absolute;
   right: 0;
 }
+
+#emailbox{
+  position: relative;
+}
+
+#text{
+  display: block;
+  color: #000;
+  font-weight: 500;
+  font-style: italic;
+  padding: 5px;
+}
+
+#emailbox .invalid:after{
+  display: inline-block;
+  position: absolute;
+  left: 150px;
+  top: 17px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(/invalid.png);
+  background-size: cover;
+  z-index: 1000;
+}
+
+#emailbox .valid:before{
+  display: inline-block;
+  position: absolute;
+  left: 150px;
+  top: 17px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(/valid.png);
+  background-size: cover;
+  z-index: 1000;
+}
