@@ -175,6 +175,7 @@ body {
 a { 
   display: inline-block;
   text-decoration: none; 
+  color: white;
 }
 
 li {
@@ -270,4 +271,68 @@ header nav{
 .bannerspan2{
   position: absolute;
   top:190px
+}
+
+.Euro_form ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.Euro_form ul li{
+  margin:10px 0px;
+}
+
+.Euro_form ul li input,select{
+  display: block;
+}
+#termsyes,#termsno{
+  display: inline;
+}
+
+.upperfooter{
+  background: #1f589f;
+}
+.upfoot{
+  display: flex;
+}
+
+.upfoot > li{
+  width: 33.33%;
+  margin-top: 40px;
+  margin-bottom: 57px;
+}
+.footernav{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footernav li a{
+  font-size: 12px;
+}
+
+.bottomfooter{
+  background: #16437d;
+  padding:10px 0px;
+}
+
+
+.bottomfooter .wrapper{
+  position: relative;
+  
+}
+.bottomfoot{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.bottomfoot li{
+  padding: 0px 10px;
+  font-size: 11px;
+  color: white;
+}
+
+.bottomfoot li:last-child{
+  position: absolute;
+  right: 0;
 }
