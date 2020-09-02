@@ -26,8 +26,9 @@
     <link rel="shortcut icon" href="favicon.ico" />
 
     <!--font-awesome link for icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.14.0-web/js/all.min.js">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.14.0-web/css/all.css">
     <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
     <link rel="stylesheet" media="screen" href="assets/css/style.css" >
   </head>
@@ -40,8 +41,8 @@
           <div class="search_header">
             <h1><img src="—Pngtree—bird and fly company logo_3777052.png" alt="EuroFinanace"></h1>
             <form action="#fixme" method="post">
-              <input type="text">
-              <input type="submit" value="search">
+              <input type="text" placeholder="Search">
+              <input type="submit" value="Go">
             </form>
           </div>
         </div>
@@ -64,7 +65,7 @@
       <!--main starts here-->
       <main>
         <section class="banner">
-          <img src="/avi-richards-Z3ownETsdNQ-unsplash.jpg" alt="banner">
+          <img src="avi-richards-Z3ownETsdNQ-unsplash.jpg" alt="Finance">
           <div class="wrapper">
             <h2>Sign up</h2>
             <span class="bannerspan1">Get the latest news on our events,</span>
@@ -73,8 +74,8 @@
         </section>
         <section class="Euro_form">
           <div class="wrapper">
-            <span>Euro finanace</span>
-            <span>newslatter sign up</span>
+            <span>EuroFinanace</span>
+            <span>Newslatter sign up</span>
             <h4>Enter your details to subscribe to our newsletter</h4>
 
             <form action="" method="" id="form" autocomplete="off">
@@ -99,7 +100,7 @@
                 <li>
                   <label for="company_type">Company type</label>
                   <select> 
-                    <option  value = "-select-">-select-</option>
+                    <option  selected disabled>-select-</option>
                     <option>IT</option>
                     <option>Chemical</option>
                     <option>Pharmaceutical</option>
@@ -108,7 +109,7 @@
                 <li>
                   <label for="country">Country</label>
                   <select> 
-                    <option  value = "-select-">-select-</option>
+                    <option  selected disabled>-select-</option>
                     <option value="india">India</option>
                     <option value="pak">Pakistan</option>
                     <option value="shrilanka">Shrilanka</option>
@@ -116,7 +117,7 @@
                 </li>
                 <li id="emailbox">
                   <label>Work Email</label>
-                  <input type="email" name="email" id = "email">
+                  <input type="text" name="email" id = "email" placeholder="monilv@prdxn.com">
                   <span id="text"></span>
                 </li>
                 <li>
@@ -149,10 +150,10 @@
             <div class="wrapper">
               <ul class="upfoot">
                 <li>
-                  <h4>EuroFinance</h4>
-                  <p>Part of the econimist group</p>
+                  <figure><img src="—Pngtree—bird and fly company logo_3777052.png" alt="EuroFinanace"></figure>
+                  <span>Part of the econimist group</span>
                 </li>
-                <li>
+                <li class="footernavlist">
                   <h3>Our EuroFinance.com</h3>
                   <ul class ="footernav">
                     <li><a href="#FIXME" title="home">Home</a></li>
@@ -165,13 +166,13 @@
                     <li><a href="#FIXME" title="Contact">Contact us</a></li>
                 </ul>
                 </li>
-                <li>
+                <li class="socialnavlist">
                   <h3>Keep updated</h3>
                   <ul class="socialnav">
-                    <li><a href="#FIXME" title="Linkdn" target="_blank">Linkdn</a></li>
-                    <li><a href="#FIXME" title="twitter" target="_blank">twitter</a></li>
-                    <li><a href="#FIXME" title="youtube" target="_blank">youtube</a></li>
-                    <li><a href="#FIXME" title="facebook" target="_blank">facebook</a></li>
+                    <li><a href="#FIXME" title="Linkdn" class="linkedin" target="_blank">Linkdn</a></li>
+                    <li><a href="#FIXME" title="twitter"  class="twitter" target="_blank">twitter</a></li>
+                    <li><a href="#FIXME" title="youtube" class="youtube" target="_blank">youtube</a></li>
+                    <li><a href="#FIXME" title="facebook" class="facebook" target="_blank">facebook</a></li>
                   </ul>
                 </li>
               </ul>
