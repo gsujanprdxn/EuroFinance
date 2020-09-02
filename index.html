@@ -35,6 +35,7 @@
   <body>
     <!--container starts here-->
     <div class="container">
+      <a href="#FIXME" class="page-up">page-up</a>
       <!--header starts here-->
       <header>
         <div class="wrapper">
@@ -76,9 +77,9 @@
           <div class="wrapper">
             <span>EuroFinanace</span>
             <span>Newslatter sign up</span>
-            <h4>Enter your details to subscribe to our newsletter</h4>
+            <h4>Enter your details to subscribe to our newsletter </h4>
 
-            <form action="" method="" id="form" autocomplete="off">
+            <form action="#fixme" method="POST" id="form" autocomplete="off">
               <ul>
                 <li>
                   <label for="firstname">First Name</label>
@@ -88,32 +89,37 @@
                 <li>
                   <label for="lastname">last Name</label>
                   <input type="text" id="lastname">
+                  <span id="lnametext"></span>
                 </li>
                 <li>
                   <label for="position">Position</label>
                   <input type="text" id="position">
+                  <span id="position_error"></span>
                 </li>
                 <li>
                   <label for="company">Company</label>
                   <input type="text" id="company">
+                  <span id="company_error"></span>
                 </li>
                 <li>
                   <label for="company_type">Company type</label>
-                  <select> 
+                  <select id="company_type" name="company_type">
                     <option  selected disabled>-select-</option>
                     <option>IT</option>
                     <option>Chemical</option>
                     <option>Pharmaceutical</option>
                   </select>
+                  <span id="company_type_error"></span>
                 </li>
                 <li>
                   <label for="country">Country</label>
-                  <select> 
+                  <select id="country"> 
                     <option  selected disabled>-select-</option>
                     <option value="india">India</option>
                     <option value="pak">Pakistan</option>
                     <option value="shrilanka">Shrilanka</option>
                   </select>
+                  <span id="country_error"></span>
                 </li>
                 <li id="emailbox">
                   <label>Work Email</label>
@@ -121,18 +127,18 @@
                   <span id="text"></span>
                 </li>
                 <li>
-                  <p id = "smpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ratione fuga iure omnis nostrum atque odit facilis, itaque fugiat sunt?</p>
+                  <p id = "smpara">EuroFinance is a part of the econo,ist group would you also like to receive our information on subscription offer economist events and other products via email</p>
                 </li>
                 <li class="radiobutton">
-                  <input type="radio" id="termsyes" name="terms" value="yes">
+                  <input type="radio" class="terms" name="terms" value="yes">
                   <label for="termsyes">Yes</label>
-                  <input type="radio" id="termsno" name="terms" value="No">
+                  <input type="radio" class="terms" name="terms" value="No">
                   <label for="termsno">No</label>
-                  <span id="rediotext"></span>
+                  <span id="radiotext"></span>
                 </li>
-                <li>
-                  <p id = "link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vitae ab hic eius ipsam inventore!
-                  <a href="https://www.economistgroup.com/privacy">www.economistgroup.com/privacy</a></p>
+                <li class="ecolink">
+                  <p id = "link">The economist group is a globalorganisation and operates a strict policy around the world you can view the privecy policy at</p>
+                  <a href="https://www.economistgroup.com/privacy">www.economistgroup.com/privacy</a>
                 </li>
                 <li>
                   <input type="submit" value="Submit">
